@@ -907,7 +907,8 @@ class Game {
           App$1.showGameFour(this.data);
           break;
         case 4:
-          App$1.showGameFive(this.data);
+          this.win();
+          // App.showGameFive(this.data);
           break;
         case 5:
           App$1.showGameSix(this.data);
